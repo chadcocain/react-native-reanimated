@@ -420,7 +420,7 @@ export function useAnimatedRef() {
     if (component !== undefined) {
       tag.value = getTag(component);
     }
-    return tag
+    return tag.value
   }
 }
 
